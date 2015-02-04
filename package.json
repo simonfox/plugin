@@ -1,0 +1,11 @@
+{
+  "jspm": {
+    "name": "plugin",
+    "directories": {
+      "lib": "src"
+    },
+    "dependencies": {
+      "aurelia-router": "^0.5.4"
+    }
+  }
+}
