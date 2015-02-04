@@ -1,5 +1,4 @@
 import { Bootstrap } from './bootstrap';
-import Aurelia from 'aurelia-framework';
 
-var host = document.getElementById(applicationHost || 'applicationHost');
+var host = document.getElementById('applicationHost');
 host.aurelia.container.getInstance(Bootstrap);
