@@ -4,5 +4,6 @@ export class Bootstrap {
   static inject() { return [Router]; }
   constructor(router) {
     this.router = router;
+    this.router.loadurl("welcome");
   }
 }
