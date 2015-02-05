@@ -1,9 +1,10 @@
-import {Router} from 'aurelia-router';
+//import {Router} from 'aurelia-router';
 
 export class Bootstrap {
-  static inject() { return [Router]; }
-  constructor(router) {
-    this.router = router;
-    this.router.loadurl("welcome");
+  //static inject() { return [Router]; }
+  constructor() {
+    
+	var router = document.body.aurelia.container.get(Router);
+	router.loadUrl("welcome");
   }
 }

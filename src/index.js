@@ -1,4 +1,3 @@
-import { Bootstrap } from './bootstrap';
+export { Bootstrap } from './bootstrap';
 
-var host = document.getElementById('applicationHost');
-document.body.aurelia.container.get(Bootstrap);
+
