@@ -1,4 +1,4 @@
-import {Router} from 'aurelia-router';
+import {AppRouter} from 'aurelia-router';
 import {Boom} from './boom';
 
 export class Bootstrap {
@@ -10,6 +10,7 @@ export class Bootstrap {
 	var router = container.get(Router);
 	router.addRoute({ route: 'boom', moduleId: 'boom', title:'Boom!!!'});
 	
-	router.navigate("boom");
+	//router.navigate("boom");
+	router.loadUrl("boom");
   }
 }
