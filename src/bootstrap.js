@@ -6,7 +6,7 @@ export class Bootstrap {
   constructor() {
     
     var container = document.body.aurelia.container;
-    container.registerTransient(Boom, x => return new Boom());
+    container.registerTransient(Boom, Boom;
 	
 	var router = container.get(Router);
 	router.addRoute({ route: 'boom', moduleId: 'boom', title:'Boom!!!'});
