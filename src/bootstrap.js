@@ -1,4 +1,4 @@
-import {AppRouter} from 'aurelia-router';
+import {Router} from 'aurelia-router';
 import {Boom} from './boom';
 
 export class Bootstrap {

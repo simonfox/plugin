@@ -1,7 +1,7 @@
 System.config({
   "paths": {
     "*": "*.js",
-    "plugin/*": "dist/*.js",
+    "plugin/*": "src/*.js",
     "github:*": "jspm_packages/github/*.js",
     "npm:*": "jspm_packages/npm/*.js"
   }

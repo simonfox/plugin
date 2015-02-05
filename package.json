@@ -28,7 +28,7 @@
   "jspm": {
     "name": "plugin",
     "directories": {
-      "lib": "dist"
+      "lib": "src"
     },
     "dependencies": {
       "aurelia-router": "^0.5.4"
