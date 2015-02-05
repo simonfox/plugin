@@ -5,6 +5,7 @@ export class Bootstrap {
   constructor() {
     
 	var router = document.body.aurelia.container.get(Router);
-	router.navigate("welcome");
+	router.addRoute({ route: 'boom', moduleId: 'boom', title:'Boom!!!'});
+	router.navigate("boom");
   }
 }
